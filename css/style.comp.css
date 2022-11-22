@@ -70,6 +70,10 @@ body {
   font-family: "Red Hat Display", sans-serif;
   color: #86869c;
   text-align: center; }
+  @media only screen and (min-width: 64.12em) {
+    body {
+      font-size: 1.8rem;
+      line-height: 1.44; } }
 
 .heading-primary,
 .heading-secondary,
@@ -92,7 +96,7 @@ body {
   @media only screen and (min-width: 64.12em) {
     .heading-primary {
       font-size: 6.4rem;
-      padding: 0 2.4rem;
+      padding: 0 4.4rem;
       margin-bottom: 3.4rem; } }
 
 .heading-secondary {
@@ -134,7 +138,6 @@ body {
       text-align: left;
       max-width: 35rem;
       justify-self: end;
-      padding-left: 4rem;
       margin-right: 1.6rem; } }
 
 .light-purple {
@@ -146,7 +149,7 @@ body {
   font-size: 1.6rem;
   font-weight: 900;
   color: #fafafa;
-  padding: 1.6rem 4.11rem;
+  padding: 1.749rem 4.11rem;
   border-radius: 2.9rem;
   cursor: pointer;
   transition: all 0.3s; }
@@ -199,7 +202,7 @@ body {
 
 @media only screen and (min-width: 64.12em) {
   .hero_img-left {
-    top: 0;
+    top: 6.1rem;
     right: 74.79vw; } }
 
 @media only screen and (min-width: 64.12em) {
@@ -218,7 +221,9 @@ body {
   padding: 0 2.4rem; }
   @media only screen and (min-width: 64.12em) {
     .hero_text {
-      max-width: 54rem; } }
+      max-width: 54rem;
+      padding: 0;
+      padding-top: 4.7rem; } }
 
 .hero_description {
   margin-bottom: 3.2rem; }
@@ -234,7 +239,8 @@ body {
   font-weight: 900;
   display: inline-block;
   position: relative;
-  z-index: 3; }
+  z-index: 3;
+  font-size: 1.6rem; }
   .number::before {
     content: "";
     display: block;
@@ -283,7 +289,7 @@ body {
         max-width: 54rem; } }
   @media only screen and (min-width: 64.12em) {
     .gallery_description {
-      padding: 0 4rem; } }
+      padding: 0 1rem; } }
 
 .footer {
   padding: 8.6rem 0 7.2rem;

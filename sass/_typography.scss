@@ -6,6 +6,11 @@ body {
   font-family: "Red Hat Display", sans-serif;
   color: $color-bluegrey-light;
   text-align: center;
+
+  @media only screen and (min-width: $bp-large) {
+    font-size: 1.8rem;
+    line-height: 1.44;
+  }
 }
 
 .heading-primary,
@@ -34,7 +39,7 @@ body {
 
   @media only screen and (min-width: $bp-large) {
     font-size: 6.4rem;
-    padding: 0 2.4rem;
+    padding: 0 4.4rem;
     margin-bottom: 3.4rem;
   }
 }
@@ -87,7 +92,6 @@ body {
     text-align: left;
     max-width: 35rem;
     justify-self: end;
-    padding-left: 4rem;
     margin-right: 1.6rem;
   }
 }
