@@ -108,6 +108,11 @@ body {
       font-size: 4rem;
       line-height: 1.1;
       padding: 0 4rem; } }
+  @media only screen and (min-width: 64.12em) {
+    .heading-secondary {
+      font-size: 4rem;
+      line-height: 1.1;
+      padding: 0 5rem; } }
   .heading-secondary--white {
     color: #fafafa;
     margin-bottom: 2.4rem; }

@@ -57,6 +57,12 @@ body {
     padding: 0 4rem;
   }
 
+  @media only screen and (min-width: $bp-large) {
+    font-size: 4rem;
+    line-height: 1.1;
+    padding: 0 5rem;
+  }
+
   &--white {
     color: $color-white;
     margin-bottom: 2.4rem;
