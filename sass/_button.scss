@@ -1,0 +1,48 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: $color-white;
+
+    padding: 1.6rem 4.11rem;
+    border-radius: 2.9rem;
+
+    // .btn only
+    // border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  &--dl:link,
+  &--dl:visited {
+    background-color: $color-green-dark;
+    margin: 0 1.6rem 1.6rem;
+
+    @media only screen and (min-width: $bp-tab-small) {
+      margin: 0 1.6rem 0 0;
+    }
+  }
+
+  &--dl:hover,
+  &--dl:active {
+    background-color: $color-green-dlight;
+  }
+
+  &--ask:link,
+  &--ask:visited {
+    background-color: $color-purple-dark;
+
+    @media only screen and (min-width: $bp-large) {
+      justify-self: end;
+    }
+  }
+
+  &--ask:hover,
+  &--ask:active {
+    background-color: $color-purple-light;
+  }
+}

@@ -1,0 +1,97 @@
+body {
+  font-size: 1.6rem;
+  font-weight: 500;
+  // line-height: 1.44;
+  line-height: 1.625;
+  font-family: "Red Hat Display", sans-serif;
+  color: $color-bluegrey-light;
+  text-align: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.overline {
+  font-weight: 900;
+  color: $color-blue-dark;
+}
+
+.heading-primary {
+  // font-size: 6.4rem;
+  font-size: 4rem;
+  // margin-bottom: 3.4rem;
+  margin-bottom: 2.4rem;
+  line-height: 1.1;
+
+  @media only screen and (min-width: $bp-iphonese) {
+    padding: 0 1.8rem;
+  }
+
+  @media only screen and (min-width: $bp-tab) {
+    font-size: 4.8rem;
+    line-height: 1;
+    padding: 0 3.8rem;
+  }
+
+  @media only screen and (min-width: $bp-large) {
+    font-size: 6.4rem;
+    padding: 0 2.4rem;
+    margin-bottom: 3.4rem;
+  }
+}
+
+.heading-secondary {
+  // font-size: 4rem;
+  // line-height: 1.1;
+  font-size: 3.2rem;
+  line-height: 1.125;
+  margin-bottom: 3.2rem;
+
+  @media only screen and (min-width: $bp-tab) {
+    font-size: 4rem;
+    line-height: 1.1;
+    padding: 0 4rem;
+  }
+
+  &--white {
+    color: $color-white;
+    margin-bottom: 2.4rem;
+
+    @media only screen and (min-width: $bp-large) {
+      padding: 0;
+      text-align: left;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.overline {
+  display: block;
+  color: $color-green-dark;
+  font-size: 1.6rem;
+  line-height: 1.625;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+
+.light-green {
+  color: $color-green-light;
+}
+
+.color-white {
+  color: $color-white;
+  margin-bottom: 3.2rem;
+
+  @media only screen and (min-width: $bp-large) {
+    margin-bottom: 0;
+    text-align: left;
+    max-width: 35rem;
+    justify-self: end;
+    padding-left: 4rem;
+    margin-right: 1.6rem;
+  }
+}
+
+.light-purple {
+  color: $color-purple-xlight;
+}

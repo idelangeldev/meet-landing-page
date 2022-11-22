@@ -1,0 +1,19 @@
+// COLORS
+$color-green-dark: hsl(192, 37%, 48%);
+$color-purple-dark: hsl(268, 34%, 53%);
+$color-blue-dark: hsl(240, 21%, 20%);
+
+$color-green-dlight: hsl(192, 54%, 64%);
+$color-green-light: hsl(192, 90%, 77%);
+$color-purple-light: hsl(268, 55%, 71%);
+$color-purple-xlight: hsl(268, 100%, 86%);
+$color-bluegrey-light: hsl(240, 10%, 57%);
+
+$color-white: hsl(0, 0%, 98%);
+
+// RESPONSIVE BREAKPOINTS
+$bp-iphonese: 23.43em; //374.88px iPhone and above
+$bp-tab-small: 27.37em; //437.92px bigger phones
+$bp-tab: 35.1em; //561.6px tablets
+$bp-tab-plus: 40.62em; //649.92px bigger tablets
+$bp-large: 64.12em; //1025.92px big iPads
